@@ -32,7 +32,7 @@ def materias():
         {"materias": "Filosofía"}
         
     ]
-    return render_template('estudiantes.html', data=data)
+    return render_template('materias.html', data=data)
 
 
 if __name__ == '__main__':
